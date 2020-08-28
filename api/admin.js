@@ -5,7 +5,6 @@ const router = express.Router()
 
 //Order
 router.get('/',(req,res)=>{
-    
     //Serve Template 
 
 })

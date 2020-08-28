@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/AnujSharma141/ShoeStore-Backend#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.1",
-    "helmet": "^4.1.0"
+    "helmet": "^4.1.0",
+    "joi": "^17.2.1"
   }
 }
