@@ -1,12 +1,18 @@
 const express = require('express')
 const Joi = require('joi')
-const fs = require('fs')
 const firebase = require('firebase/app')
 require("firebase/database")
 
 //Unique Firebase Config Keys
 const firebaseConfig = {
   // ...
+  apiKey: "AIzaSyCvesg_oEQSOka1gj_LiDS8m9J9lZWh6-k",
+  authDomain: "simora.firebaseapp.com",
+  databaseURL: "https://simora.firebaseio.com",
+  projectId: "simora",
+  storageBucket: "simora.appspot.com",
+  messagingSenderId: "12230464810",
+  appId: "1:12230464810:web:41b4ceb766e4b610d5fa53"
 }
 
 //Firebase Integration
@@ -17,15 +23,15 @@ const app = express()
 const router = express.Router()
 
 //Draw
-router.get('/',(req,res)=>{ 
-  database.ref('/draw/').once('value').then(draw =>{
+router.get('/draw',(req,res)=>{ 
+  database.ref('draw/').once('value').then(draw =>{
     const data = draw.val()
     res.send(data)
   })
 })
 
 //Order
-router.post('/',(req,res)=>{
+router.post('/order',(req,res)=>{
 
   //Validation
     const schema = Joi.object({
@@ -56,6 +62,13 @@ router.post('/',(req,res)=>{
     })
     res.send('Order Placed')
     
+})
+
+//apply authentication in req
+router.put('/draw?auth="id here"',(req,res)=>{
+    const edit = req.body
+    database.ref('draw/').set(edit)
+    res.send('Drawer updated!')
 })
 
 module.exports = router
