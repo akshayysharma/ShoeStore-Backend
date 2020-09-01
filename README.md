@@ -1,6 +1,6 @@
 # Shoe Store
 
-![alt text](https://i.ibb.co/FmZ50qq/screely-1598997933484.png)
+![alt text](https://i.ibb.co/z6ht71p/screely-1598998630874.png)
 
 Shoe Store shopping application backend created with [NODE](https://nodejs.org/), [EXPRESS](https://expressjs.com/) and [FIREBASE](https://firebase.google.com/).
 
