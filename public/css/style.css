@@ -22,6 +22,8 @@ body{
   align-items: center;
   font-size: 1.5vw;
   margin: 3vw 5.5vw 2vw 0vw;
+  color:#fff;
+  text-decoration: none;
 }
 .logo{
   width:4.5vw; 
@@ -57,6 +59,13 @@ body{
 .order-item{
     text-align: center;
     width:11vw;
+}
+.order-status-true{
+  color:green;
+}
+
+.order-status-false{
+  color:red;
 }
 
 .item-min{

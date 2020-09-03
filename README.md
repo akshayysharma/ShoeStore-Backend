@@ -17,8 +17,20 @@ npm start
 
 ## Requirements
 
-1. Node v10.19.0 or higher
+1. NODE v10.19.0 or higher.
 
-2. npm v6.14.4 or higher
+2. NPM v6.14.4 or higher.
 
-3. Firebase account.
+3. A Firebase account.
+
+4. EXPRESS v4.17.1 or higher.
+
+## Database
+
+The project uses Firebase Realtime Database as the database.
+
+Create a PROJECT in Firebase.
+
+Insert your Firebase Config Keys in ```api/main.js
+```
+

@@ -12,18 +12,16 @@ const router = express.Router()
 const database = firebase.database()
 
 
-//serve template
 router.get('/',(req,res)=>{
-    //Serve Template
-    database.ref('/').once('value').then(draw =>{
-        const main = draw.val().orders
-        res.render('main',{orderList : main, order : true})
+    database.ref('/orders').once('value').then(data =>{
+        const list = data.val()
+        res.send(list)
     })
 })
 
 //draw
 router.get('/draw',(req,res)=>{
-    res.render('main',{drawList : drawData , draw :true })
+    res.send(drawData)
 })
 
 module.exports = router

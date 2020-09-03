@@ -58,17 +58,24 @@ router.post('/order',(req,res)=>{
       phone: req.body.phone,
       order: req.body.order,
       total: req.body.total,
-      orderId: order.key
+      orderId: order.key,
+      done: false
     })
     res.send('Order Placed')
     
 })
 
-//apply authentication in req
-router.put('/draw?auth="id here"',(req,res)=>{
+//apply authentication:
+
+//draw edit
+router.put('/draw',(req,res)=>{
     const edit = req.body
     database.ref('draw/').set(edit)
     res.send('Drawer updated!')
 })
+
+//order status
+
+
 
 module.exports = router
