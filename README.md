@@ -31,6 +31,5 @@ The project uses Firebase Realtime Database as the database.
 
 Create a PROJECT in Firebase.
 
-Insert your Firebase Config Keys in ```api/main.js
-```
+Insert your Firebase Config Keys in api/main.js
 

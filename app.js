@@ -23,4 +23,4 @@ app.use('/api',api)
 app.use('/admin',admin)
 
 const port = process.env.PORT || 3020
-app.listen(port, ()=>console.log(`server listening`))
+app.listen(port, () => console.log(`server listening`))

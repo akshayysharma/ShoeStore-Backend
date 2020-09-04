@@ -24,6 +24,12 @@ body{
   margin: 3vw 5.5vw 2vw 0vw;
   color:#fff;
   text-decoration: none;
+  cursor: pointer;
+}
+.head-links-all{
+  display: flex;
+  align-items: center;
+  font-size: 1.5vw;
 }
 .logo{
   width:4.5vw; 
@@ -36,7 +42,7 @@ body{
     justify-content: center;
     align-items: center;
 }
-.partial-title{
+.sub-title{
     color:#fff;
     margin-left: 5%;
     font-size: 1.5vw;
@@ -69,5 +75,76 @@ body{
 }
 
 .item-min{
-    width:6vw;
+    width:5vw;
+}
+
+.login{
+  width:100%;
+  height:100%;
+  background:#fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form{
+  margin-top: 0.5vw;
+  width:20vw;
+  background:#9eb5f5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1vw;
+}
+.form-logo{
+  width:4.5vw; 
+  margin-top: 0.5vw;
+}
+.form-title{
+  font-size:2.1vw;
+  font-weight: 700;
+  margin-top: 0vw;
+  color: #ffffff;
+  margin-bottom:1vw;
+}
+.input{
+  background: #ffffff;
+  font-family: 'Alata', sans-serif;
+  border:0px;
+  font-size: 1vw;
+  padding: 0.5vw 2vw;
+  width:92%;
+  outline: none;
+  margin: 0.3vw 0vw;
+  text-align: center;
+}
+.input::placeholder{
+  font-family: 'Alata', sans-serif;
+}
+
+.button{
+  background: #000;
+  border:0px;
+  outline: none;
+  font-size:1.2vw;
+  margin: 1.7vw 0vw 3vw 0vw;
+  padding: 0.7vw 1.8vw;
+  font-family: 'Alata', sans-serif;
+  color: #fff;
+  font-weight: 700;
+}
+.err-message{
+  position: absolute;
+  margin-top: 20.5vw;
+  color: rgb(0, 0, 0);
+}
+
+.logout{
+  border: 1px #fff solid;
+  transition: 0.2s;
+  padding: 0.4vw 0.9vw;
+}
+.logout:hover{
+  background:#000;
+  color: #fff;
+  border: 1px #000 solid;
 }
