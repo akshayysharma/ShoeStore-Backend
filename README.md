@@ -7,12 +7,7 @@ Shoe Store shopping application backend
 
 ![alt text](https://i.ibb.co/z6ht71p/screely-1598998630874.png)
 
-<<<<<<< HEAD
-=======
-Shoe Store shopping application backend created with [NODE](https://nodejs.org/), [EXPRESS](https://expressjs.com/), [REACT](https://reactjs.org/) and [FIREBASE](https://firebase.google.com/).
->>>>>>> e7f8c726a2c05d4f1f36f18e144f56a24200bc12
-
-## Installation
+## Development
 
 Run the following commands in terminal to setup the project on your local machine.
 
