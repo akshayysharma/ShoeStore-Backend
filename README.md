@@ -2,7 +2,7 @@
 
 Shoe Store shopping application backend
 
- Created with [NODE](https://nodejs.org/), [EXPRESS](https://expressjs.com/) and [FIREBASE](https://firebase.google.com/) and [REACT](https://reactjs.org/).
+ Created with [NODE](https://nodejs.org/), [EXPRESS](https://expressjs.com/), [FIREBASE](https://firebase.google.com/) and [REACT](https://reactjs.org/).
 
 
 ![alt text](https://i.ibb.co/z6ht71p/screely-1598998630874.png)
