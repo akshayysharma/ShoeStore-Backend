@@ -25,7 +25,7 @@ npm start
 1. Login to [FIREBASE](https://firebase.google.com/)
 2. Create New Project
 3. Copy Firebase Config Keys
-4. Insert your Keys to api/main.js
+4. Insert your Keys to `api/main.js`
 
 ### Environment Variables
 
@@ -38,7 +38,7 @@ The project uses Firebase Realtime Database which is a document model NOSQL data
  
 ### Schema 
 
-![alt text](https://i.ibb.co/VpnBx0H/Screenshot-from-2020-09-05-21-24-37.png)
+<img src="https://i.ibb.co/VpnBx0H/Screenshot-from-2020-09-05-21-24-37.png" width="500">
 
 ## Technologies Used
 
