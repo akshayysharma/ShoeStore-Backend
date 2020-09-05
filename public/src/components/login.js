@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import logo from '../../img/logo.svg'
 
-
 export default class login extends Component {
     constructor(props){
         super(props)
@@ -15,7 +14,9 @@ export default class login extends Component {
             e.preventDefault()
             fetch(`http://localhost:3020/admin/auth/${this.state.username}/${this.state.password}`)
             .then(data => {
-            data.status === 200 ? this.props.login() : this.setState({err:'Invalid login', username:'', password: ''})
+            data.status === 200? 
+            this.props.login():
+            this.setState({err:'Invalid login', username:'', password: ''})
         })
         } 
     }

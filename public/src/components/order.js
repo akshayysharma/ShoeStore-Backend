@@ -10,7 +10,6 @@ export default class order extends Component {
         .then(data => data.json())
         .then(items => {
             this.setState({data: Object.values(items)})
-            console.log(this.state)
         })
     }
     render() {

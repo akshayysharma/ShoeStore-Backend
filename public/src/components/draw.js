@@ -10,7 +10,6 @@ export default class draw extends Component {
         .then(data => data.json())
         .then(items => {
             this.setState({data: items})
-            console.log(this.state)
         })
     }
     render() {

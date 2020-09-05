@@ -8,17 +8,21 @@ import '../../css/style.css'
 export default class app extends Component {
     constructor(){
         super()
-        this.state = {order: true, logged: false}
+        this.state = {order: true, logged: false, token: null}
         this.switchPage = () => this.setState({order: !this.state.order})
 
         this.login = () => this.setState({logged: true})
         this.logout = () => this.setState({logged: false})
+        this.setToken = key => this.setState({token:key})
     }
     render() {
         return (
             <div>
-                <Header switch={this.switchPage} data={this.state} logout={this.logout} />
-                {this.state.logged? this.state.order?<Orders /> : <Draw />  
+                {this.state.logged?
+                <>
+                <Header token={this.state.token} switch={this.switchPage} data={this.state.order} logout={this.logout} />
+                {this.state.order?<Orders /> : <Draw /> }
+                </> 
                 : <Login login={this.login} />}
             </div>
         )

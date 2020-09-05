@@ -1,12 +1,16 @@
 # Shoe Store
 
+Shoe Store shopping application backend
+
+ Created with [NODE](https://nodejs.org/), [EXPRESS](https://expressjs.com/) and [FIREBASE](https://firebase.google.com/).
+
+
 ![alt text](https://i.ibb.co/z6ht71p/screely-1598998630874.png)
 
-Shoe Store shopping application backend created with [NODE](https://nodejs.org/), [EXPRESS](https://expressjs.com/) and [FIREBASE](https://firebase.google.com/).
 
-## Development
+## Installation
 
-Run the following commands in terminal to run on your local machine.
+Run the following commands in terminal to setup the project on your local machine.
 
 ```bash 
 git clone https://github.com/AnujSharma141/ShoeStore-Backend.git
@@ -15,21 +19,34 @@ npm install
 npm start
 ```
 
-## Requirements
+## Setup
 
-1. NODE v10.19.0 or higher.
+### Database Integration
 
-2. NPM v6.14.4 or higher.
+1. Login to [FIREBASE](https://firebase.google.com/)
+2. Create New Project
+3. Copy Firebase Config Keys
+4. Insert your Keys to api/main.js
 
-3. A Firebase account.
+### Environment Variables
 
-4. EXPRESS v4.17.1 or higher.
+* Set ENV.USERNAME for admin username.
+* Set ENV.PASSWORD for admin password.
 
 ## Database
 
-The project uses Firebase Realtime Database as the database.
+The project uses Firebase Realtime Database which is a document model NOSQL database.
+ 
+### Schema 
 
-Create a PROJECT in Firebase.
+![alt text](https://i.ibb.co/VpnBx0H/Screenshot-from-2020-09-05-21-24-37.png)
 
-Insert your Firebase Config Keys in api/main.js
+## Technologies Used
+
+* NODE (Runtime)
+* EXPRESS (API Framework)
+* HANDLEBARS (Template Engine)
+* PARCEL (Package Bundler)
+* REACT (Front-End Library)
+* FIREBASE (Database)
 

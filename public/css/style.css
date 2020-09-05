@@ -130,6 +130,7 @@ body{
   padding: 0.7vw 1.8vw;
   font-family: 'Alata', sans-serif;
   color: #fff;
+  cursor: pointer;
   font-weight: 700;
 }
 .err-message{
