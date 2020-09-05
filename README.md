@@ -38,7 +38,7 @@ The project uses Firebase Realtime Database which is a document model NOSQL data
  
 ### Schema 
 
-<img src="https://i.ibb.co/VpnBx0H/Screenshot-from-2020-09-05-21-24-37.png" width="500">
+<img src="https://i.ibb.co/VpnBx0H/Screenshot-from-2020-09-05-21-24-37.png" width="650">
 
 ## Technologies Used
 
