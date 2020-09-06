@@ -29,8 +29,8 @@ npm start
 
 ### Environment Variables
 
-* Set ENV.USERNAME for admin username.
-* Set ENV.PASSWORD for admin password.
+* Set `ENV.USERNAME` for admin username.
+* Set `ENV.PASSWORD` for admin password.
 
 ## Database
 
